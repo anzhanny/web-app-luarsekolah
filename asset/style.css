@@ -1,0 +1,87 @@
+.footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 20px 0;
+    font-size: 10px;
+    position: relative;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px; 
+}
+
+.footer-logo,
+.footer-info,
+.footer-address,
+.footer-social {
+    text-align: center; 
+    margin-top: -30px;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.footer-social .icon-social {
+    margin-left: 5px;
+    margin-top: 10px;
+    font-size: 20px; 
+    background: linear-gradient(45deg, #229799, #48CFCB); 
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    transition: transform 0.3s, background 0.3s; 
+}
+
+.footer-item-list ul {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    gap: 20px; 
+}
+
+.footer-item-list ul li {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    gap: 10px; 
+    
+}
+
+.footer-item-list ul li a {
+    text-decoration: none;
+    color: #000; 
+    transition: color 0.3s ease; 
+    font-weight: bold;
+}
+
+.footer-item-list ul li a:hover {
+    color: #229799; 
+}
+
+
+
