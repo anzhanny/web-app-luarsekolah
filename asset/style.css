@@ -1,18 +1,131 @@
-body {
-    font-family: Arial, sans-serif;
+*{
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    display: flex;
+    box-sizing: border-box;
+}
+
+main {
+    padding-top: 120px; 
+}
+/* body {
     flex-direction: column;
     align-items: center;
+} */
+
+/* header */
+
+.header {
+    color:white;    
+    padding: 5px 0;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    transition: all 0.5s;
+    z-index: 997;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    justify-content: space-between;
 }
+
+.header.scrolled {
+    background-color: #e0e0e0; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    transition: all 0.3s ease; 
+}
+
+
+.header .logo {
+    position: relative;
+    transform: translate(20px, 10px);
+}
+
+.header img {
+    width: 8rem;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.sitename {
+    margin: 5px 0 0 20px;
+    text-decoration: none;
+}
+
+/* Styling for navigation */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 15px 0 15px 30rem;
+    font-size: 15px;
+    /* justify-content: center;
+    align-items: center; */
+
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown > span {
+    cursor: pointer;
+    display: inline-block;
+    color: black;
+    padding: 20px;
+
+  }
+  .dropdown > span:after {
+    content: " ∨";
+    font-size: 15px;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.auth-link1, .auth-link2 {
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding: 30px;
+}
+
+.auth-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 2rem;
+}
+
+
+
+
+
 
 /* footer */
 .footer {
     /* background-color: rgb(255, 255, 255); */
     color: rgb(0, 0, 0);
     padding: 20px 0;
-    font-size: 10px;
+    font-size: 15px;
     position: relative;
     width: 100%;
     margin-top: 30px;
@@ -46,6 +159,10 @@ body {
 .footer-social {
     text-align: center; 
     /* margin-top: -30px; */
+}
+
+.footer-logo img {
+    width: 8rem;
 }
 
 .footer-social {
