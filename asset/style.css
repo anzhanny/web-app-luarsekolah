@@ -122,93 +122,74 @@ main {
 
 /* footer */
 .footer {
-    /* background-color: rgb(255, 255, 255); */
-    color: rgb(0, 0, 0);
-    padding: 20px 0;
-    font-size: 15px;
-    position: relative;
-    width: 100%;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    text-align: center;
+    padding: 60px 130px;
+    background-color: #ECFFFA;
+    color:#383838;
 }
 
 .container-footer {
-    /* width: 100%; */
-    padding: 0 20px;
-    margin: 0 auto;
-    display: flex; 
-    flex-direction: column;
-    align-items: center; 
-}
-
-.footer-content {
     display: flex;
-    flex-direction: column; 
-    align-items: center;
-    justify-content: center;
-    /* width: 100%; */
-    gap: 10px; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
 }
 
-.footer-logo,
-.footer-info,
-.footer-address,
-.footer-social {
-    text-align: center; 
-    /* margin-top: -30px; */
+.footer-logo img{
+    margin-left: -20px;
+    width: 150px;
 }
 
-.footer-logo img {
-    width: 8rem;
+.footer-content,
+.footer-content-tentang,
+.footer-content-program,
+.footer-content-dukungan{
+    flex: 4;
+    align-items: flex-start;
+    margin-top: -10px;
+    margin-right: 10px;
 }
 
-.footer-social {
-    display: flex;
-    justify-content: center;
-    gap: 5px;
+.footer-content-tentang{
+    margin-left: 10px;
+    margin-right: -50px;
 }
 
-.footer-social .icon-social {
-    margin-left: 5px;
+.footer-social img{
+    width: 20px; 
+    margin-right: 15px;
+    padding: 5px 0;
+}
+
+.footer-playstore img{
+    width: 100px; 
+    margin-right: 20px;
     margin-top: 10px;
-    font-size: 20px; 
-    background: linear-gradient(45deg, #229799, #48CFCB); 
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent; 
-    transition: transform 0.3s, background 0.3s; 
+    padding: 5px 0;
 }
 
-.footer-item-list ul {
-    display: flex;
-    flex-direction: row; 
-    justify-content: center; 
-    list-style: none; 
-    padding: 0; 
-    margin: 0; 
-    gap: 20px; 
+.footer-info p {
+    width: 350px; 
+    font-size: 14px;
+    margin-bottom: 25px;
 }
 
-.footer-item-list ul li {
-    display: flex; 
-    flex-direction: column; 
-    align-items: center; 
-    gap: 10px; 
-    
+.footer ul {
+    list-style-type: none; 
+    padding: 0;
+    margin-top: 106px;
+    font-size: 14px;
 }
 
-.footer-item-list ul li a {
-    text-decoration: none;
-    color: #000; 
-    transition: color 0.3s ease; 
-    font-weight: bold;
+.footer ul li a {
+    text-decoration: none; 
+    color: #333; 
 }
 
-.footer-item-list ul li a:hover {
-    color: #229799; 
+.footer ul li a:hover {
+    color: #24C699; 
 }
 
-
-
+.copyright p{
+    text-align: center;
+    font-size: 14px;
+}

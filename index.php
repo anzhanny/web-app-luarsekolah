@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <style>
-            .container {
+        .container {
             margin-top: 100px;
             display: flex;
             background-color: white;
@@ -195,44 +195,72 @@
                 <div class="footer-logo">
                     <img src="asset/img/luarsekolah-logo.png" alt="" width="80px">
                 </div>
-                <div class="footer-info">
+                <div class="footer-info" >
                     <p>
-                        Luarsekolah adalah platform marketplace edukasi vokasi dan pengembangan diri berbasis online yang dapat diakses kapan saja dan <br>di mana saja untuk mendampingi generasi muda Indonesia #sampaijadibisa
+                    Luarsekolah merupakan wadah belajar dan mengajar pelajaran non-formal/alternatif dengan cara menyediakan kelas pengajaran dalam bentuk online dasn offline
                     </p>
-                </div>
-                <div class="footer-social">
-                    <a href="https://www.instagram.com" target="_blank" class="social-icon">
-                        <i class="fab fa-instagram icon-social"></i>
-                    </a>
-                    <a href="https://www.twitter.com" target="_blank" class="social-icon">
-                        <i class="fab fa-twitter icon-social"></i>
-                    </a>
-                    <a href="https://wa.me/6281234567890" target="_blank" class="social-icon">
-                        <i class="fab fa-whatsapp icon-social"></i>
-                    </a>
-                    <a href="https://www.youtube.com/" target="_blank" class="social-icon">
-                        <i class="fab fa-youtube icon-social"></i>
-                    </a>
-                    <a href="https://www.x.com/" target="_blank" class="social-icon">
-                        <i class="fab fa-youtube icon-social"></i>
-                    </a>
-                </div>
+                    <P>PT Teknologi Edukasi Indonesia</P>
                 
-                <div class="footer-item-list">
-                    <ul>
-                        <li><a href="#">Home</a></li></li>
-                        <li><a href="#">Community</a></li>
-                        <li><a href="#">Bantuan</a></li>
-                        <li><a href="#">Promo</a></li>
-                        <li><a href="#">Program</a></li>
-                    </ul>
-                </div>
+                    <div class="footer-social">
+                    <a href="https://www.linkedin.com/">
+                        <img src="asset/icon/linkedin.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://www.tiktok.com/">
+                        <img src="asset/icon/tiktok.png" alt="TikTok">
+                    </a>
+                    <a href="https://www.instagram.com" >
+                        <img src="asset/icon/instagram.png" alt="Instagram">
+                    </a>
+                    <a href="https://www.facebook.com/" >
+                        <img src="asset/icon/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.twitter.com" >
+                        <img src="asset/icon/twitter.png" alt="Twitter">
+                    </a>
+                    <a href="https://www.youtube.com" >
+                        <img src="asset/icon/youtube.png" alt="YouTube">
+                    </a>
 
-                <p>&copy; 2024 MyWebsite. All rights reserved.</p>
-                
+                    </div>
+                    <div class="footer-playstore">
+                        <a href="https://play.google.com/" target="_blank"><img src="asset/icon/PlayStore.png"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-content-tentang">
+                <ul>
+                    <li><a href="#"><b>Tentang</b></a></li>
+                    <li><a href="#">Tentang Kami</a></li>
+                    <li><a href="#">Blog</a></li>   
+                    <li><a href="#">Komunitas</a></li>
+                    <li><a href="#">Promo</a></li>
+                    <li><a href="#">Kegiatan</a></li>
+                </ul>
+            </div>
+            <div class="footer-content-program">
+            <ul>
+                    <li><a href="#"><b>Program</b></a></li>
+                    <li><a href="#">Prakerja</a></li>
+                    <li><a href="#">Belajar Bekerja</a></li>   
+                    <li><a href="#">ISW (Indonesia Skill Week)</a></li>
+                </ul>
+            </div>
+            <div class="footer-content-dukungan">
+            <ul>
+                    <li><a href="#"><b>Dukungan</b></a></li>
+                    <li><a href="#">Bantuan</a></li>
+                    <li><a href="#">Syarat & Ketentuan</a></li>   
+                    <li><a href="#">Kebijakan Privasi</a></li>
+                </ul>
             </div>
         </div>
+        <div class="copyright">
+        <p>&copy; 2024 All Rights Reserved</p>
+        </div>
+
     </footer>
+
     
 </body>
 </html>
