@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Content Page</title>
-    <link rel="stylesheet" href="asset/style.css">
+    <link rel="stylesheet" href="asset/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,7 +64,7 @@
     
     .image-container {
         width: 50%;
-        background-image: url('path/to/your/image.jpg'); /* Replace with your image path */
+        background-image: url('path/to/your/image.jpg'); 
         background-size: cover;
         background-position: center;
     }
@@ -77,33 +77,37 @@
             <a href="index.html" class="logo d-flex align-items-center">
                 <img src="asset/img/luarsekolah-logo.png" alt="logo" >
             </a>
-    
+
             <div class="dropdown">
-                <span>Program</span>
+                <button class="dropbtn">
+                        Program <img src="asset/icon/chevron-down.png" alt="Panah" class="arrow"> 
+                </button>                
                 <div class="dropdown-content">
-                  <a href="#">Program 1</a>
-                  <a href="#">Program 2</a>
-                  <a href="#">Program 3</a>
+                    <a href="#">Prakerja</a>
+                    <a href="#">Belajar Bekerja</a>
+                    <a href="#">Indonesia Skills Week</a>
                 </div>
-                
-                <span>Pelayanan</span>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                        Layanan <img src="asset/icon/chevron-down.png" alt="Panah" class="arrow"> 
+                </button> 
                 <div class="dropdown-content">
-                  <a href="#">Pelayanan 1</a>
-                  <a href="#">Pelayanan 2</a>
-                  <a href="#">Pelayanan 3</a>
+                    <a href="#">Tentang kami</a>
+                    <a href="#">Promo</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Komunitas</a>
                 </div>
-              </div>
-    
+            </div>
             <div class="auth-links">
-                <button style="background-color: white; border-radius: 10px; height: 35px; width:auto;">
+                <button class="auth-link1-btn">
                     <a href="login.html" class="auth-link1">Masuk</a> 
                 </button>
-                <button style="background-color: rgb(1, 250, 179); border-radius: 10px; height: 35px; border: 0; color: black; text-decoration: none;" >
+                <button class="auth-link2-btn">
                     <a href="login.html" class="auth-link2">Daftar</a> 
                 </button>
-                
             </div>
-        </div>
+
     </header>
 
     <main>
@@ -261,6 +265,7 @@
 
     </footer>
 
-    
+    <script src="asset/js/script.js"></script>
 </body>
 </html>
+ 
