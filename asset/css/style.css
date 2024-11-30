@@ -5,12 +5,9 @@
     box-sizing: border-box;
 }
 
-main {
-    padding-top: 120px; 
-}
-
 /* Header */
 .header {
+    font-weight: 400;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -18,16 +15,17 @@ main {
     align-items: center;
     justify-content: flex-end; 
     padding: 10px 130px; 
-    background-color: white; 
+    background-color: #ECFFFA; 
 }
 
 .header.scrolled {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-    background-color: #f9f9f9; 
+    background-color: #ECFFFA;
 }
 
 
 .container-fluid {
+    background-color: #ECFFFA;
     display: flex;
     align-items: center;
     justify-content: flex-start; 
@@ -52,7 +50,7 @@ main {
 }
 
 .dropbtn {
-    background-color: #fff; 
+    background-color: #ECFFFA; 
     color: #666666;
     padding: 10px 20px;
     font-size: 16px;
@@ -133,7 +131,7 @@ color: #07CB83;
 }
 
 .auth-link1-btn {
-    background-color: white;
+    background-color: #ECFFFA;    
     border-radius: 4px;
     border: 1px solid #666666;
     height: 44px;
@@ -169,6 +167,247 @@ color: #07CB83;
     color: inherit;
 }
 
+/* about */
+.about {
+    display: flex;
+    padding: 60px 200px;
+    background-color: #ECFFFA;
+    color:#666666;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    padding: 20px;
+}
+
+.about-luarsekolah {
+    text-align: center;
+    line-height: 1.8;
+    max-width:850px; 
+}
+
+.about-luarsekolah h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+}
+
+
+.highlight-h1 {
+    color: #24C699; 
+}
+
+.highlight-p {
+    color: #00E88B; 
+}
+
+
+.about-luarsekolah p{
+    font-weight: 600;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+/* story */
+.story {
+    padding: 60px 200px;
+    background-color: #24C699;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    height: 200vh; 
+    padding: 20px;
+}
+
+.story h1, .story p, .story ul {
+    margin: 20px auto;
+    text-align: center;
+    max-width: 1050px;
+}
+
+.story-luarsekolah {
+    text-align: center;
+    line-height: 1.8;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+}
+
+.story-luarsekolah p {
+    font-weight: 500;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.story-luarsekolah h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 500;
+
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Animasi background */
+.berawal-slide1 {
+    background: linear-gradient(135deg, #f3ec78, #af4261);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.berawal-slide2 {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.berawal-slide3 {
+    background: linear-gradient(135deg, #43e97b, #38f9d7);
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+/* visi-misi / tujuan */
+.visi-misi {
+    padding: 60px 150px;
+    background-color: #ECFFFA;
+    color:#666666;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+/* Title */
+
+.title-visimisi {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title-visimisi h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #24C699; /* Warna hijau */
+    margin-bottom: 10px;
+}
+
+.title-visimisi h4 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Grid Layout untuk Konten */
+.content-visimisi {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+/* Animasi Visi */
+.animation-visi img {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Konten Visi */
+.visi-right {
+    text-align: left;
+}
+
+.visi-right h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    color: #24C699;
+}
+
+.visi-right p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    width: 85%;
+}
+
+
+/* Konten Misi */
+.misi-left ul li{
+    text-align: left;
+    width: 100%;
+}
+
+.misi-left h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    color: #24C699;
+}
+
+.misi-left h2 img{
+    width: 40px;
+
+}
+
+.visi-right h2 img{
+    width: 40px;
+}
+
+.misi-left ul {
+    list-style: none;
+    padding: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.misi-left ul li {
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.misi-left ul li::before {
+    content: "•";
+    color: #24C699;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+/* Animasi Misi */
+.animation-misi img {
+    width: 80%;
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .content-visimisi {
+        grid-template-columns: 1fr; /* Semua konten dalam satu kolom */
+        text-align: center;
+    }
+
+    .animation-visi img,
+    .animation-misi img {
+        width: 60%; /* Ukuran lebih kecil */
+    }
+}
 
 
 /* footer */
@@ -176,6 +415,7 @@ color: #07CB83;
     padding: 60px 130px;
     background-color: #ECFFFA;
     color:#666666;
+    font-weight: 400;
 }
 
 .container-footer {

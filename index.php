@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
     <style>
         .container {
             margin-top: 100px;
@@ -69,10 +68,9 @@
         background-position: center;
     }
     </style>
-    </style>
 </head>
 <body>
-    <header id="header" class="header d-flex align-items-center sticky-top" style="background-color: white;">
+    <header id="header" class="header d-flex align-items-center sticky-top">
         <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
             <a href="index.html" class="logo d-flex align-items-center">
                 <img src="asset/img/luarsekolah-logo.png" alt="logo" >
@@ -107,76 +105,96 @@
                     <a href="login.html" class="auth-link2">Daftar</a> 
                 </button>
             </div>
-
     </header>
 
     <main>
-        <section>
-            <div class="about-me" style=" height: auto; padding: 20px;">
-                <h1 style="text-align: center;">Tentang Kami</h1>
-                <p style="text-align: center; line-height: 1.8; margin: 20px 0;">
-                    Luarsekolah adalah platform marketplace edukasi vokasi dan pengembangan diri berbasis online yang dapat diakses kapan saja dan di mana saja untuk mendampingi generasi muda Indonesia #sampaijadibisa</p>
-            </div>
-        </section>
+    <section class="about">
+        <div class="about-luarsekolah">
+            <h1><span class="highlight-h1">Tentang</span> Kami</h1>
+            <p>
+            “Kenali lebih dekat Luarsekolah, platform edukasi vokasi digital yang mendampingi generasi muda Indonesia belajar hingga <span class="highlight-p">#sampaijadibisa</span>
+            </p>
+        </div>
+    </section>
 
-        <section>
-            <div class="story" style="background-color: rgb(164, 238, 213); height: auto; padding: 20px;">
-                <h1 style="text-align: center;">Berawal Dari</h1>
-                <p style="text-align: center; line-height: 1.8; margin: 20px 0;">
-                    Luarsekolah adalah platform edukasi vokasi dan pengembangan diri yang menggabungkan teknologi digital dengan materi-materi dari pengajar berpengalaman. Kami hadir untuk mendampingi generasi muda Indonesia belajar dan berkembang. Kurikulum formal sering kali tidak sejalan dengan kebutuhan industri. Hal ini menciptakan kesenjangan keterampilan yang signifikan antara lulusan dan tuntutan dunia kerja. Akibatnya, banyak perusahaan di Indonesia kesulitan menemukan talenta yang siap bersaing.
+
+    <section class="story"> 
+        <div class="story-luarsekolah">
+            <h1>Luarsekolah</h1>
+            <p>
+            Luarsekolah adalah platform edukasi vokasi dan pengembangan diri yang menggabungkan teknologi digital dengan materi-materi dari pengajar berpengalaman. Kami hadir untuk mendampingi generasi muda Indonesia belajar dan berkembang.
+            </p>
+        </div>
+        <div class="story-berawaldari">
+            <div class="berawal-slide1 hidden">
+                <h1>Luarsekolah</h1>
+                <p>
+                Luarsekolah adalah platform edukasi vokasi dan pengembangan diri yang menggabungkan teknologi digital dengan materi-materi dari pengajar berpengalaman. Kami hadir untuk mendampingi generasi muda Indonesia belajar dan berkembang.
                 </p>
             </div>
-        </section>
+            <div class="berawal-slide2 hidden">
+                <h1>Berawal Dari Kenyataan pendidikan saat ini</h1>
+                <ul>
+                    <li>Kurikulum formal sering kali tidak sejalan dengan kebutuhan industri.</li>
+                    <li>Hal ini menciptakan kesenjangan keterampilan yang signifikan antara lulusan dan tuntutan dunia kerja.</li>
+                    <li>Akibatnya, banyak perusahaan di Indonesia kesulitan menemukan talenta yang siap bersaing.</li>
+                </ul>
+            </div>
+            <div class="berawal-slide3 hidden">
+                <h1>Maka demikian...</h1>
+                <p>kami hadirkan platform pendidikan vokasi untuk membantu Generasi Indonesia siap bersaing di industri modern.</p>
+                <p>Hingga kini, lebih dari 250.000 pengguna dan puluhan mentor telah bergabung. Bersama, mari kita wujudkan pendidikan Indonesia yang lebih baik.</p>
+            </div>
+        </div>
+    </section>
 
-        <section> 
-    <div class="visi-misi" style="text-align: center;">
-        <h1 style="margin-bottom: 50px; padding: 20px;">Visi dan Misi</h1>
-    
-        <div style="display: flex; justify-content: center; gap: 10rem;">
-            <!-- Card Visi -->
-            <div style="position: relative; width: 300px; text-align: center;">
-                <!-- Lingkaran -->
-                <div style="width: 25rem; height: 25rem; background-color: #72efd4; border-radius: 50%; margin: 0 auto; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 10px; box-sizing: border-box; gap: 10px;">
-                    <!-- Ikon -->
-                    <div style="font-size: 30px; color: white; margin-top: 10px;">
-                        &#9733; <!-- Ikon bintang -->
-                    </div>
-                    <!-- Teks -->
-                    <p style="font-size: 14px; line-height: 1.5; color: #333; margin: 0;">
-                        Menjadi platform pendidikan non-formal berbasis teknologi yang mencetak generasi muda unggul, berkarakter, berpengetahuan, terampil, dan berdaya saing.
-                    </p>
-                </div>
-                <!-- Label Visi -->
-                <h1 style="position: absolute; top: 28rem; left: 68%; transform: translateX(-50%); background-color: #128269; color: white; border-radius: 10px; padding: 5px 15px; margin-top: -5rem;">
-                    Visi
-                </h1>
-            </div>
-    
-            <!-- Card Misi -->
-            <div style="position: relative; width: 300px; text-align: center;">
-                <!-- Lingkaran -->
-                <div style="width: 25rem; height: 25rem; background-color: #72efd4; border-radius: 50%; margin: 0 auto; position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 10px; box-sizing: border-box; gap: 10px;">
-                    <!-- Ikon -->
-                    <div style="font-size: 30px; color: white; margin-top: 10px;">
-                        &#9881; <!-- Ikon gear -->
-                    </div>
-                    <!-- Teks -->
-                    <ul style="font-size: 12px; line-height: 1.5; color: #333; padding: 0; margin: 0; list-style: none;">
-                        <li>Merancang program pendidikan yang sesuai kebutuhan industri.</li>
-                        <li>Menyediakan platform teknologi untuk mendukung pembelajaran dan pengembangan diri.</li>
-                        <li>Menyelenggarakan pelatihan berkualitas yang relevan dengan tantangan global.</li>
-                        <li>Mendorong kolaborasi melalui pembelajaran kelompok.</li>
-                        <li>Menanamkan budaya belajar sepanjang hayat dengan pendampingan aktif.</li>
-                    </ul>
-                </div>
-                <!-- Label Misi -->
-                <h1 style="position: absolute; top: 28rem; left: 68%; transform: translateX(-50%); background-color: #128269; color: white; border-radius: 10px; padding: 5px 15px; margin-top: -5rem;">
-                    Misi
-                </h1>
-            </div>
+    <section class="visi-misi">
+    <div class="title-visimisi">
+        <h1>Tujuan Kami</h1>
+        <h4>Perencanaan Luarsekolah untuk mencapai tujuan</h4>
+    </div>
+
+    <div class="content-visimisi">
+        <!-- Animasi Visi -->
+        <div class="animation-visi">
+            <img src="asset/animation/visi-animation-right.png" alt="Animasi Visi">
+        </div>
+
+        <!-- Konten Visi -->
+        <div class="visi-right">
+            <h2>
+                <img src="asset/icon/visi-icon.png" alt="Ikon Visi">
+                Visi
+            </h2>
+            <p>
+                Menjadi platform pendidikan non-formal berbasis teknologi yang mencetak generasi muda unggul, berkarakter, berpengetahuan, terampil, dan berdaya saing.
+            </p>
+        </div>
+
+        <!-- Konten Misi -->
+        <div class="misi-left">
+            <h2>
+                <img src="asset/icon/misi-icon.png" alt="Ikon Misi">
+                Misi
+            </h2>
+            <ul>
+                <li>Merancang program pendidikan yang sesuai kebutuhan industri.</li>
+                <li>Menyediakan platform teknologi untuk mendukung pembelajaran dan pengembangan diri.</li>
+                <li>Menyelenggarakan pelatihan berkualitas yang relevan dengan tantangan global.</li>
+                <li>Mendorong kolaborasi melalui pembelajaran kelompok.</li>
+                <li>Menanamkan budaya belajar sepanjang hayat dengan pendampingan aktif.</li>
+            </ul>
+        </div>
+
+        <!-- Animasi Misi -->
+        <div class="animation-misi">
+            <img src="asset/animation/misi-animation-left.png" alt="Animasi Misi">
         </div>
     </div>
 </section>
+
+
+
 
         
         

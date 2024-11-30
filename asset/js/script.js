@@ -45,3 +45,23 @@ document.querySelectorAll('.dropdown').forEach(function (dropdown) {
         button.classList.remove('active');
     });
 });
+
+// story
+document.addEventListener("DOMContentLoaded", function () {
+    const storySection = document.querySelector(".story"); // Hanya untuk halaman dengan .story
+    if (!storySection) return; // Jika tidak ada elemen .story, berhenti
+
+    const elements = storySection.querySelectorAll(".hidden");
+
+    function checkScroll() {
+        elements.forEach(element => {
+            const rect = element.getBoundingClientRect();
+            if (rect.top < window.innerHeight - 100) {
+                element.classList.add("show");
+            }
+        });
+    }
+
+    window.addEventListener("scroll", checkScroll);
+    checkScroll(); // Untuk memeriksa ketika halaman dimuat pertama kali
+});
