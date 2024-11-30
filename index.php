@@ -120,32 +120,32 @@
 
 
         <section class="story">
-    <div class="slideshow">
-        <div class="slide" style="background-image: url('asset/animation/slide 1.png');">
-            <div class="content-slide">
-                <h1>Luarsekolah</h1>
-                <p>
-                    Luarsekolah adalah platform edukasi vokasi dan pengembangan diri yang menggabungkan teknologi digital 
-                    dengan materi-materi dari pengajar berpengalaman. Kami hadir untuk mendampingi generasi muda Indonesia belajar dan berkembang.
-                </p>
+            <div class="slideshow">
+                <div class="slide" style="background-image: url('asset/animation/slide 1.png');">
+                    <div class="content-slide">
+                        <h1>Luarsekolah</h1>
+                        <p>
+                            Luarsekolah adalah platform edukasi vokasi dan pengembangan diri yang menggabungkan teknologi digital 
+                            dengan materi-materi dari pengajar berpengalaman. Kami hadir untuk mendampingi generasi muda Indonesia belajar dan berkembang.
+                        </p>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('asset/animation/slide 2.png');">
+                    <div class="content-slide">
+                        <h1>Berawal Dari Kenyataan Pendidikan Saat Ini</h1>
+                        <p>•  Kurikulum formal sering kali tidak sejalan dengan kebutuhan industri.</p>
+                        <p>•  Banyak perusahaan di Indonesia kesulitan menemukan talenta yang siap bersaing.</p>
+                        <p>•  Hal ini menciptakan kesenjangan keterampilan yang signifikan antara lulusan dan tuntutan dunia kerja.</p>
+                    </div>
+                </div>
+                <div class="slide" style="background-image: url('asset/animation/slide 3.png');">
+                    <div class="content-slide">
+                        <h1>Maka Demikian...</h1>
+                        <p>kami hadirkan platform pendidikan vokasi untuk membantu Generasi Indonesia siap bersaing di industri modern.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="slide" style="background-image: url('asset/animation/slide 2.png');">
-            <div class="content-slide">
-                <h1>Berawal Dari Kenyataan Pendidikan Saat Ini</h1>
-                <p>•  Kurikulum formal sering kali tidak sejalan dengan kebutuhan industri.</p>
-                <p>•  Banyak perusahaan di Indonesia kesulitan menemukan talenta yang siap bersaing.</p>
-                <p>•  Hal ini menciptakan kesenjangan keterampilan yang signifikan antara lulusan dan tuntutan dunia kerja.</p>
-            </div>
-        </div>
-        <div class="slide" style="background-image: url('asset/animation/slide 3.png');">
-            <div class="content-slide">
-                <h1>Maka Demikian...</h1>
-                <p>kami hadirkan platform pendidikan vokasi untuk membantu Generasi Indonesia siap bersaing di industri modern.</p>
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
 
 
         <section class="visi-misi">
@@ -191,28 +191,55 @@
             </div>
         </section>
 
-        <section class="value">
-            <div class="title-value">
-                <h1>Value</h1>
-                <h4>Nilai-Nilai Inti yang Mendorong Misi dan Visi Kami</h4>
-            </div>
 
-            <div class="content-value">
-                <div class="value-1">
-                    <img src="asset/animation/value-1.png" alt="icon-value1">
+        <section class="value-section">
+            <div class="value-header">
+                <h2>Value</h2>
+                <p>Nilai-Nilai Inti yang Mendorong Misi dan Visi Kami</p>
+            </div>
+            <div class="value-content">
+                <div class="value-item">
+                    <img src="asset/animation/value-1.png" alt="Relevan Dengan Zaman">
                     <p>Relevan Dengan Zaman</p>
                 </div>
-                <div class="value-2">
-                    <img src="asset/animation/value-2.png" alt="icon-value2">
+                <div class="value-item">
+                    <img src="asset/animation/value-2.png" alt="Berani Untuk Memulai">
                     <p>Berani Untuk Memulai</p>
                 </div>
-                <div class="value-3">
-                    <img src="asset/animation/value-3.png" alt="icon-value3">
-                    <p>Terbaharu dan Terkurasi</p>
+                <div class="value-item">
+                    <img src="asset/animation/value-3.png" alt="Terbaru dan Terkurasi">
+                    <p>Terbaru dan Terkurasi</p>
                 </div>
             </div>
-
         </section>
+
+        <section class="keunggulan">
+        <div class="keunggulan-header">
+            <h2>Solusi <span>yang Kami Tawarkan</span></h2>
+        </div>
+        <div class="keunggulan-grid">
+            <div class="keunggulan-item">
+                <img src="asset/icon/keunggulan-1.png" alt="Ikon 1">
+                <h3>Menjembatani Kesenjangan Pendidikan dan Industri.</h3>
+                <p>Kami membantu menyelaraskan kurikulum pendidikan dengan kebutuhan industri, agar siap menghadapi tantangan dunia kerja.</p>
+            </div>
+            <div class="keunggulan-item">
+                <img src="asset/icon/keunggulan-2.png" alt="Ikon 2">
+                <h3>Memberikan Akses Pendidikan Mudah dan Berkualitas.</h3>
+                <p>Platform kami memberikan akses pendidikan yang praktis, efektif, dan berkualitas untuk semua pengguna.</p>
+            </div>
+            <div class="keunggulan-item">
+                <img src="asset/icon/keunggulan-3.png" alt="Ikon 3">
+                <h3>Menawarkan Kelas dengan Harga Terjangkau.</h3>
+                <p>Belajar skill baru <span class="highlight">#sampaijadibisa</span> nggak perlu mahal! Jadi, kamu bisa nabung buat keperluan lain.</p>
+            </div>
+            <div class="keunggulan-item">
+                <img src="asset/icon/keunggulan-4.png" alt="Ikon 4">
+                <h3>Masuk Jurusan yang Salah? Tidak Perlu Cemas!</h3>
+                <p>Dengan berbagai pilihan kelas dan keterampilan, kamu bisa mengembangkan diri sesuai minat dan bakatmu, tanpa terikat jurusan.</p>
+            </div>
+        </div>
+    </section>
 
 
 

@@ -297,6 +297,7 @@ color: #07CB83;
 }
 
 .content-slide p, ul {
+    padding: 5px 150px;
     font-size: 16px;
     max-width: 100%;
     line-height: 1.5;
@@ -425,30 +426,152 @@ color: #07CB83;
 }
 
 /* value */
-.value {
+.value-section {
+    text-align: center;
     padding: 60px 150px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-    height: 150vh;
+    background-color: #ffffff; 
+    color: #4a4a4a;
+    box-sizing: border-box;
+    /* height: 60vh; */
 }
 
-.title-value {
-    text-align: center;
+.value-header h2 {
+    font-size: 2.5rem;
+    color: #24C699; 
+    margin-bottom: 10px;
+}
+
+.value-header p {
+    font-size: 1.2rem;
+    color: #7a7a7a;
     margin-bottom: 50px;
 }
-.title-value h1 {
-    font-size: 36px;
-    font-weight: bold;
-    color: #24C699;
-    margin-bottom: 10px;
+
+.value-content {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+    flex-wrap: wrap; 
 }
 
-.title-value h4 {
-    font-size: 16px;
-    font-weight: bold;
+.value-item {
+    text-align: center;
+    flex: 1 1 30%; 
+    max-width: 300px; 
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.value-item img {
+    width: 80px; 
+    height: 80px; 
+    margin-bottom: 10px; 
+    transition: transform 0.3s ease;
+}
+
+.value-item p {
+    font-size: 1rem;
+    color: #24C699;
+    margin: 0;
+}
+
+/* Hover Effect */
+.value-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.value-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Responsiveness untuk layar kecil */
+@media (max-width: 768px) {
+    .value-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .value-item {
+        max-width: 100%; 
+    }
+}
+
+
+/* keunggulan */
+.keunggulan{
+    padding: 60px 150px;
+    text-align: center;
     color: #666666;
+    background-color: #ECFFFA;
+}
+
+.keunggulan-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 80px;
+    color: #24C699;
+}
+
+.keunggulan-header span {
+    color: #666666;
+}
+
+.keunggulan-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(37%, 1fr));
+    gap: 40px;
+    margin-top: 30px;
+
+
+}
+
+.keunggulan-item {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 30px;
+    width: 100%;
+    padding: 50px 30px;
+
+}
+
+@media (max-width: 768px) {
+    .solution-grid {
+        grid-template-columns: 2fr; /* 1 kolom per baris di layar kecil */
+    }
+}
+
+.keunggulan-item img {
+    width: 70px;
+    height: 70px;
+    margin-top: -160px;
+    margin-bottom: 15px;
+}
+
+.keunggulan-item h3 {
+    font-size: 1.2rem;
     margin-bottom: 10px;
+    color: #666666;
+}
+
+.keunggulan-item p {
+
+    font-size: 1rem;
+    color: #666666;
+}
+
+.keunggulan-item .highlight {
+    color: #24C699;
+    font-weight: bold;
+}
+
+/* Hover Effect */
+.keunggulan-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
 /* footer */
