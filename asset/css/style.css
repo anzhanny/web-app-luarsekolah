@@ -175,7 +175,7 @@ color: #07CB83;
     color:#666666;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    height: 90vh;
     padding: 20px;
 }
 
@@ -198,7 +198,22 @@ color: #07CB83;
 }
 
 .highlight-p {
-    color: #00E88B; 
+    font-weight: bold;
+    color: #24C699; 
+    animation: colorChange 3s infinite; 
+}
+
+/* Definisi animasi */
+@keyframes colorChange {
+    0% {
+        color: #00E88B; 
+    }
+    50% {
+        color: #00956F; 
+    }
+    100% {
+        color: #00E88B; 
+    }
 }
 
 
@@ -210,77 +225,85 @@ color: #07CB83;
 
 /* story */
 .story {
-    padding: 60px 200px;
+    padding: 0;
     background-color: #24C699;
-    color:white;
+    color: white;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 200vh; 
-    padding: 20px;
+    height: 88vh;
+    overflow: hidden;
 }
 
-.story h1, .story p, .story ul {
-    margin: 20px auto;
+.slideshow {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.slideshow .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-    max-width: 1050px;
-}
-
-.story-luarsekolah {
-    text-align: center;
-    line-height: 1.8;
-    margin-left: 100px;
-    margin-bottom: 100px;
-
-}
-
-.story-luarsekolah p {
-    font-weight: 500;
-    margin: 20px 0;
-    font-size: 16px;
-}
-
-.story-luarsekolah h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    font-weight: 500;
-
-}
-
-.hidden {
+    background-size: 100%;
+    background-position: center;
     opacity: 0;
-    transform: translateY(50px);
-    transition: all 0.8s ease;
+    transform: translateY(100%);
+    animation: slideAnimation 12s infinite;
+    color: white;
 }
 
-.show {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-/* Animasi background */
-.berawal-slide1 {
-    background: linear-gradient(135deg, #f3ec78, #af4261);
-    padding: 30px;
+.slideshow .slide .content-slide {
+    z-index: 2;
+    padding: 20px;
     border-radius: 10px;
-    margin: 20px 0;
 }
 
-.berawal-slide2 {
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
-    padding: 30px;
-    border-radius: 10px;
-    margin: 20px 0;
+.slideshow .slide:nth-child(1) {
+    animation-delay: 0s;
 }
 
-.berawal-slide3 {
-    background: linear-gradient(135deg, #43e97b, #38f9d7);
-    padding: 30px;
-    border-radius: 10px;
-    margin: 20px 0;
+.slideshow .slide:nth-child(2) {
+    animation-delay: 4s;
+}
+
+.slideshow .slide:nth-child(3) {
+    animation-delay: 8s;
+}
+
+@keyframes slideAnimation {
+    0%, 20% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+    25%, 50% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    55%, 100% {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+}
+
+.content-slide h1 {
+    font-size:36px;
+    margin: 0.5rem 0;
+}
+
+.content-slide p, ul {
+    font-size: 16px;
+    max-width: 100%;
+    line-height: 1.5;
 }
 
 
-/* visi-misi / tujuan */
+/* visi-misi */
 .visi-misi {
     padding: 60px 150px;
     background-color: #ECFFFA;
@@ -290,8 +313,6 @@ color: #07CB83;
     height: 150vh;
 }
 
-/* Title */
-
 .title-visimisi {
     text-align: center;
     margin-bottom: 50px;
@@ -299,7 +320,7 @@ color: #07CB83;
 .title-visimisi h1 {
     font-size: 36px;
     font-weight: bold;
-    color: #24C699; /* Warna hijau */
+    color: #24C699;
     margin-bottom: 10px;
 }
 
@@ -309,7 +330,6 @@ color: #07CB83;
     margin-bottom: 30px;
 }
 
-/* Grid Layout untuk Konten */
 .content-visimisi {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -317,7 +337,6 @@ color: #07CB83;
     align-items: center;
 }
 
-/* Animasi Visi */
 .animation-visi img {
     width: 80%;
     max-width: 300px;
@@ -325,7 +344,6 @@ color: #07CB83;
     display: block;
 }
 
-/* Konten Visi */
 .visi-right {
     text-align: left;
 }
@@ -345,8 +363,6 @@ color: #07CB83;
     width: 85%;
 }
 
-
-/* Konten Misi */
 .misi-left ul li{
     text-align: left;
     width: 100%;
@@ -389,7 +405,6 @@ color: #07CB83;
     margin-right: 10px;
 }
 
-/* Animasi Misi */
 .animation-misi img {
     width: 80%;
     max-width: 300px;
@@ -399,16 +414,42 @@ color: #07CB83;
 
 @media (max-width: 768px) {
     .content-visimisi {
-        grid-template-columns: 1fr; /* Semua konten dalam satu kolom */
+        grid-template-columns: 1fr; 
         text-align: center;
     }
 
     .animation-visi img,
     .animation-misi img {
-        width: 60%; /* Ukuran lebih kecil */
+        width: 60%;
     }
 }
 
+/* value */
+.value {
+    padding: 60px 150px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 150vh;
+}
+
+.title-value {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.title-value h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #24C699;
+    margin-bottom: 10px;
+}
+
+.title-value h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #666666;
+    margin-bottom: 10px;
+}
 
 /* footer */
 .footer {

@@ -1,6 +1,5 @@
 
 // header
-// Pilih elemen header
 const header = document.querySelector('.header');
 
 // Tambahkan event listener untuk scroll
@@ -47,21 +46,16 @@ document.querySelectorAll('.dropdown').forEach(function (dropdown) {
 });
 
 // story
-document.addEventListener("DOMContentLoaded", function () {
-    const storySection = document.querySelector(".story"); // Hanya untuk halaman dengan .story
-    if (!storySection) return; // Jika tidak ada elemen .story, berhenti
+document.addEventListener("scroll", () => {
+    const story = document.querySelector(".story");
+    const slideshow = document.querySelector(".slideshow");
+    const storyRect = story.getBoundingClientRect();
+    const slideshowRect = slideshow.getBoundingClientRect();
 
-    const elements = storySection.querySelectorAll(".hidden");
 
-    function checkScroll() {
-        elements.forEach(element => {
-            const rect = element.getBoundingClientRect();
-            if (rect.top < window.innerHeight - 100) {
-                element.classList.add("show");
-            }
-        });
+    if (slideshowRect.top < window.innerHeight && slideshowRect.bottom > 0) {
+        story.style.opacity = "0"; 
+    } else {
+        story.style.opacity = "1"; 
     }
-
-    window.addEventListener("scroll", checkScroll);
-    checkScroll(); // Untuk memeriksa ketika halaman dimuat pertama kali
 });

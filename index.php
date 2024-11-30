@@ -108,90 +108,111 @@
     </header>
 
     <main>
-    <section class="about">
-        <div class="about-luarsekolah">
-            <h1><span class="highlight-h1">Tentang</span> Kami</h1>
-            <p>
-            “Kenali lebih dekat Luarsekolah, platform edukasi vokasi digital yang mendampingi generasi muda Indonesia belajar hingga <span class="highlight-p">#sampaijadibisa</span>
-            </p>
-        </div>
-    </section>
-
-
-    <section class="story"> 
-        <div class="story-luarsekolah">
-            <h1>Luarsekolah</h1>
-            <p>
-            Luarsekolah adalah platform edukasi vokasi dan pengembangan diri yang menggabungkan teknologi digital dengan materi-materi dari pengajar berpengalaman. Kami hadir untuk mendampingi generasi muda Indonesia belajar dan berkembang.
-            </p>
-        </div>
-        <div class="story-berawaldari">
-            <div class="berawal-slide1 hidden">
-                <h1>Luarsekolah</h1>
+        <section class="about">
+            <div class="about-luarsekolah">
+                <h1><span class="highlight-h1">Tentang</span> Kami</h1>
                 <p>
-                Luarsekolah adalah platform edukasi vokasi dan pengembangan diri yang menggabungkan teknologi digital dengan materi-materi dari pengajar berpengalaman. Kami hadir untuk mendampingi generasi muda Indonesia belajar dan berkembang.
+                “Kenali lebih dekat Luarsekolah, platform edukasi vokasi digital yang mendampingi generasi muda Indonesia belajar hingga 
+                <span class="highlight-p">#sampaijadibisa</span>
                 </p>
             </div>
-            <div class="berawal-slide2 hidden">
-                <h1>Berawal Dari Kenyataan pendidikan saat ini</h1>
-                <ul>
-                    <li>Kurikulum formal sering kali tidak sejalan dengan kebutuhan industri.</li>
-                    <li>Hal ini menciptakan kesenjangan keterampilan yang signifikan antara lulusan dan tuntutan dunia kerja.</li>
-                    <li>Akibatnya, banyak perusahaan di Indonesia kesulitan menemukan talenta yang siap bersaing.</li>
-                </ul>
+        </section>
+
+
+        <section class="story">
+    <div class="slideshow">
+        <div class="slide" style="background-image: url('asset/animation/slide 1.png');">
+            <div class="content-slide">
+                <h1>Luarsekolah</h1>
+                <p>
+                    Luarsekolah adalah platform edukasi vokasi dan pengembangan diri yang menggabungkan teknologi digital 
+                    dengan materi-materi dari pengajar berpengalaman. Kami hadir untuk mendampingi generasi muda Indonesia belajar dan berkembang.
+                </p>
             </div>
-            <div class="berawal-slide3 hidden">
-                <h1>Maka demikian...</h1>
+        </div>
+        <div class="slide" style="background-image: url('asset/animation/slide 2.png');">
+            <div class="content-slide">
+                <h1>Berawal Dari Kenyataan Pendidikan Saat Ini</h1>
+                <p>•  Kurikulum formal sering kali tidak sejalan dengan kebutuhan industri.</p>
+                <p>•  Banyak perusahaan di Indonesia kesulitan menemukan talenta yang siap bersaing.</p>
+                <p>•  Hal ini menciptakan kesenjangan keterampilan yang signifikan antara lulusan dan tuntutan dunia kerja.</p>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('asset/animation/slide 3.png');">
+            <div class="content-slide">
+                <h1>Maka Demikian...</h1>
                 <p>kami hadirkan platform pendidikan vokasi untuk membantu Generasi Indonesia siap bersaing di industri modern.</p>
-                <p>Hingga kini, lebih dari 250.000 pengguna dan puluhan mentor telah bergabung. Bersama, mari kita wujudkan pendidikan Indonesia yang lebih baik.</p>
             </div>
-        </div>
-    </section>
-
-    <section class="visi-misi">
-    <div class="title-visimisi">
-        <h1>Tujuan Kami</h1>
-        <h4>Perencanaan Luarsekolah untuk mencapai tujuan</h4>
-    </div>
-
-    <div class="content-visimisi">
-        <!-- Animasi Visi -->
-        <div class="animation-visi">
-            <img src="asset/animation/visi-animation-right.png" alt="Animasi Visi">
-        </div>
-
-        <!-- Konten Visi -->
-        <div class="visi-right">
-            <h2>
-                <img src="asset/icon/visi-icon.png" alt="Ikon Visi">
-                Visi
-            </h2>
-            <p>
-                Menjadi platform pendidikan non-formal berbasis teknologi yang mencetak generasi muda unggul, berkarakter, berpengetahuan, terampil, dan berdaya saing.
-            </p>
-        </div>
-
-        <!-- Konten Misi -->
-        <div class="misi-left">
-            <h2>
-                <img src="asset/icon/misi-icon.png" alt="Ikon Misi">
-                Misi
-            </h2>
-            <ul>
-                <li>Merancang program pendidikan yang sesuai kebutuhan industri.</li>
-                <li>Menyediakan platform teknologi untuk mendukung pembelajaran dan pengembangan diri.</li>
-                <li>Menyelenggarakan pelatihan berkualitas yang relevan dengan tantangan global.</li>
-                <li>Mendorong kolaborasi melalui pembelajaran kelompok.</li>
-                <li>Menanamkan budaya belajar sepanjang hayat dengan pendampingan aktif.</li>
-            </ul>
-        </div>
-
-        <!-- Animasi Misi -->
-        <div class="animation-misi">
-            <img src="asset/animation/misi-animation-left.png" alt="Animasi Misi">
         </div>
     </div>
 </section>
+
+
+        <section class="visi-misi">
+            <div class="title-visimisi">
+                <h1>Tujuan Kami</h1>
+                <h4>Perencanaan Luarsekolah untuk mencapai tujuan</h4>
+            </div>
+
+            <div class="content-visimisi">
+
+                <div class="animation-visi">
+                    <img src="asset/animation/visi-animation-right.png" alt="Animasi Visi">
+                </div>
+
+
+                <div class="visi-right">
+                    <h2>
+                        <img src="asset/icon/visi-icon.png" alt="Ikon Visi">
+                        Visi
+                    </h2>
+                    <p>
+                        Menjadi platform pendidikan non-formal berbasis teknologi yang mencetak generasi muda unggul, berkarakter, berpengetahuan, terampil, dan berdaya saing.
+                    </p>
+                </div>
+
+                <div class="misi-left">
+                    <h2>
+                        <img src="asset/icon/misi-icon.png" alt="Ikon Misi">
+                        Misi
+                    </h2>
+                    <ul>
+                        <li>Merancang program pendidikan yang sesuai kebutuhan industri.</li>
+                        <li>Menyediakan platform teknologi untuk mendukung pembelajaran dan pengembangan diri.</li>
+                        <li>Menyelenggarakan pelatihan berkualitas yang relevan dengan tantangan global.</li>
+                        <li>Mendorong kolaborasi melalui pembelajaran kelompok.</li>
+                        <li>Menanamkan budaya belajar sepanjang hayat dengan pendampingan aktif.</li>
+                    </ul>
+                </div>
+
+                <div class="animation-misi">
+                    <img src="asset/animation/misi-animation-left.png" alt="Animasi Misi">
+                </div>
+            </div>
+        </section>
+
+        <section class="value">
+            <div class="title-value">
+                <h1>Value</h1>
+                <h4>Nilai-Nilai Inti yang Mendorong Misi dan Visi Kami</h4>
+            </div>
+
+            <div class="content-value">
+                <div class="value-1">
+                    <img src="asset/animation/value-1.png" alt="icon-value1">
+                    <p>Relevan Dengan Zaman</p>
+                </div>
+                <div class="value-2">
+                    <img src="asset/animation/value-2.png" alt="icon-value2">
+                    <p>Berani Untuk Memulai</p>
+                </div>
+                <div class="value-3">
+                    <img src="asset/animation/value-3.png" alt="icon-value3">
+                    <p>Terbaharu dan Terkurasi</p>
+                </div>
+            </div>
+
+        </section>
 
 
 
