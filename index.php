@@ -214,32 +214,63 @@
         </section>
 
         <section class="keunggulan">
-        <div class="keunggulan-header">
-            <h2>Solusi <span>yang Kami Tawarkan</span></h2>
-        </div>
-        <div class="keunggulan-grid">
-            <div class="keunggulan-item">
-                <img src="asset/icon/keunggulan-1.png" alt="Ikon 1">
-                <h3>Menjembatani Kesenjangan Pendidikan dan Industri.</h3>
-                <p>Kami membantu menyelaraskan kurikulum pendidikan dengan kebutuhan industri, agar siap menghadapi tantangan dunia kerja.</p>
+            <div class="keunggulan-header">
+                <h2>Solusi <span>yang Kami Tawarkan</span></h2>
             </div>
-            <div class="keunggulan-item">
-                <img src="asset/icon/keunggulan-2.png" alt="Ikon 2">
-                <h3>Memberikan Akses Pendidikan Mudah dan Berkualitas.</h3>
-                <p>Platform kami memberikan akses pendidikan yang praktis, efektif, dan berkualitas untuk semua pengguna.</p>
+            <div class="keunggulan-grid">
+                <div class="keunggulan-item">
+                    <img src="asset/icon/keunggulan-1.png" alt="Ikon 1">
+                    <h3>Menjembatani Kesenjangan Pendidikan dan Industri.</h3>
+                    <p>Kami membantu menyelaraskan kurikulum pendidikan dengan kebutuhan industri, agar siap menghadapi tantangan dunia kerja.</p>
+                </div>
+                <div class="keunggulan-item">
+                    <img src="asset/icon/keunggulan-2.png" alt="Ikon 2">
+                    <h3>Memberikan Akses Pendidikan Mudah dan Berkualitas.</h3>
+                    <p>Platform kami memberikan akses pendidikan yang praktis, efektif, dan berkualitas untuk semua pengguna.</p>
+                </div>
+                <div class="keunggulan-item">
+                    <img src="asset/icon/keunggulan-3.png" alt="Ikon 3">
+                    <h3>Menawarkan Kelas dengan Harga Terjangkau.</h3>
+                    <p>Belajar skill baru <span class="highlight">#sampaijadibisa</span> nggak perlu mahal! Jadi, kamu bisa nabung buat keperluan lain.</p>
+                </div>
+                <div class="keunggulan-item">
+                    <img src="asset/icon/keunggulan-4.png" alt="Ikon 4">
+                    <h3>Masuk Jurusan yang Salah? Tidak Perlu Cemas!</h3>
+                    <p>Dengan berbagai pilihan kelas dan keterampilan, kamu bisa mengembangkan diri sesuai minat dan bakatmu, tanpa terikat jurusan.</p>
+                </div>
             </div>
-            <div class="keunggulan-item">
-                <img src="asset/icon/keunggulan-3.png" alt="Ikon 3">
-                <h3>Menawarkan Kelas dengan Harga Terjangkau.</h3>
-                <p>Belajar skill baru <span class="highlight">#sampaijadibisa</span> nggak perlu mahal! Jadi, kamu bisa nabung buat keperluan lain.</p>
+        </section>
+
+        <section class="pencapaian">
+            <div class="animasi-pencapaian">
+                <img src="asset/animation/pencapaian.png" alt="pencapaian">
             </div>
-            <div class="keunggulan-item">
-                <img src="asset/icon/keunggulan-4.png" alt="Ikon 4">
-                <h3>Masuk Jurusan yang Salah? Tidak Perlu Cemas!</h3>
-                <p>Dengan berbagai pilihan kelas dan keterampilan, kamu bisa mengembangkan diri sesuai minat dan bakatmu, tanpa terikat jurusan.</p>
+            <div class="content-pencapaian">
+                <h1>Pencapaian</h1>
+                <p>
+                    Kami menciptakan dampak besar dengan menghubungkan jutaan pengguna, trainer, dan kelas untuk mendukung perkembangan generasi muda Indonesia.
+
+                </p>
             </div>
-        </div>
-    </section>
+            <div class="total-pencapaian">
+                <div class="total-user">
+                    <h4>Total User</h4>
+                    <h1>1.260.000+</h1>
+                </div>
+                <div class="total-kelas">
+                    <h4>Total Kelas</h4>
+                    <h1>150+</h1>
+                </div>
+                <div class="total-trainer">
+                    <h4>Total Trainer</h4>
+                    <h1>100+</h1>
+                </div>
+                <div class="follower-instagram">
+                    <h4>Follower Instagram</h4>
+                    <h1>313.000+</h1>
+                </div>
+            </div>
+        </section>
 
 
 

@@ -574,6 +574,87 @@ color: #07CB83;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
 }
 
+/* pencapaian */
+.pencapaian {
+    padding: 5px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    text-align: center;
+}
+
+/* Bagian Animasi Pencapaian */
+.animasi-pencapaian img {
+    width: 25rem;
+    height: auto;
+    margin-bottom: 20px;
+    margin-right: 50rem;
+    margin-left: 15rem;
+}
+
+/* Bagian Konten Deskripsi */
+.content-pencapaian {
+    max-width: 600px;
+    margin-top: -20rem;
+    margin-bottom: 10rem;
+    margin-left: 30rem;
+    text-align: left;
+    width: 450px;
+}
+
+.content-pencapaian h1 {
+    font-size: 32px;
+    color: #24C699;
+    margin-bottom: 15px;
+}
+
+.content-pencapaian p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Bagian Total Pencapaian */
+.total-pencapaian {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.total-pencapaian div {
+    padding: 20px;
+    text-align: center;
+}
+
+.total-pencapaian h4 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.total-pencapaian h1 {
+    font-size: 24px;
+    color: #24C699;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .total-pencapaian {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .total-pencapaian {
+        grid-template-columns: 1fr;
+    }
+}
+
+
 /* footer */
 .footer {
     padding: 60px 130px;
