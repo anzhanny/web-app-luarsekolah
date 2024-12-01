@@ -271,13 +271,7 @@
                 </div>
             </div>
         </section>
-
-
-
-
-        
-        
-        
+                
         <div class="container">
             <div class="form-container">
                 <h2>Contact Us</h2>
