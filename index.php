@@ -284,6 +284,48 @@
         </div>
     </main>
 
+    <div class="Kenalan">
+        <div class="contactUs">
+            <div class="title-contact">
+                <h2>Yuk, Kenali Kami Lebih Jauh</h2>
+            </div>
+            <div class="box-contact">
+                <div class="contact-maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.021296467057!2d106.81051261984668!3d-6.230032269482236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e799d285b7%3A0x1a1359055467a9ec!2svOffice%20Indonesia%20-%20Headquarter%20(Virtual%20Office%20%7C%20Serviced%20Office%20%7C%20Event%20Space%20%7C%20Meeting%20Room)!5e0!3m2!1sid!2sid!4v1733060323702!5m2!1sid!2sid" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="contact-info">
+                    <div class="infoBox">
+                        <table>
+                            <tr>
+                                <td><i class="fa-solid fa-location-dot fa-xl"></i></td>
+                                <td>Centenial Tower Level 29, Jl Jendral Gatot Subroto No.27, Karet Semanggi, Setiabudi DKI Jakarta 12950.</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa-brands fa-whatsapp fa-xl"></i></td>
+                                <td>+62 811 2021 444</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fa-solid fa-envelope fa-xl"></i></td>
+                                <td>info@luarsekolah.com</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="colaboration">
+            <div class="container-collab">
+                <div class="title-collab">
+                    <p>Ingin Berkolaborasi Dengan Kami?</p>
+                </div>
+                <div class="btn-colab">
+                    <a href="#" class="button">Ajukan Penawaran</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <footer class="footer">
         <div class="container-footer">
             <div class="footer-content">
