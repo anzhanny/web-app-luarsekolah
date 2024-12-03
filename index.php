@@ -62,10 +62,10 @@
         </section>
 
 
-        <section class="story">
-            <div class="slideshow">
-                <div class="slide" style="background-image: url('asset/animation/slide 1.png');">
-                    <div class="content-slide">
+        <section class="story-luarsekolah">
+            <div class="slideshow-luarsekolah">
+                <div class="slide-luarsekolah" style="background-image: url('asset/animation/slide 1.png');">
+                    <div class="content-slide-luarsekolah">
                         <h1>Luarsekolah</h1>
                         <p>
                             Luarsekolah adalah platform edukasi vokasi dan pengembangan diri yang menggabungkan teknologi digital 
@@ -73,16 +73,16 @@
                         </p>
                     </div>
                 </div>
-                <div class="slide" style="background-image: url('asset/animation/slide 2.png');">
-                    <div class="content-slide">
+                <div class="slide-luarsekolah" style="background-image: url('asset/animation/slide 2.png');">
+                    <div class="content-slide-luarsekolah">
                         <h1>Berawal Dari Kenyataan Pendidikan Saat Ini</h1>
                         <p>•  Kurikulum formal sering kali tidak sejalan dengan kebutuhan industri.</p>
                         <p>•  Banyak perusahaan di Indonesia kesulitan menemukan talenta yang siap bersaing.</p>
                         <p>•  Hal ini menciptakan kesenjangan keterampilan yang signifikan antara lulusan dan tuntutan dunia kerja.</p>
                     </div>
                 </div>
-                <div class="slide" style="background-image: url('asset/animation/slide 3.png');">
-                    <div class="content-slide">
+                <div class="slide-luarsekolah" style="background-image: url('asset/animation/slide 3.png');">
+                    <div class="content-slide-luarsekolah">
                         <h1>Maka Demikian...</h1>
                         <p>kami hadirkan platform pendidikan vokasi untuk membantu Generasi Indonesia siap bersaing di industri modern.</p>
                     </div>
@@ -183,6 +183,7 @@
                 </div>
             </div>
         </section>
+
 
         <section class="pencapaian">
             <div class="animasi-pencapaian">

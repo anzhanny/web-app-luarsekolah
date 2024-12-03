@@ -224,7 +224,7 @@ color: #07CB83;
 }
 
 /* story */
-.story {
+.story-luarsekolah {
     padding: 0;
     background-color: #24C699;
     color: white;
@@ -235,13 +235,13 @@ color: #07CB83;
     overflow: hidden;
 }
 
-.slideshow {
+.slideshow-luarsekolah {
     width: 100%;
     height: 100%;
     position: relative;
 }
 
-.slideshow .slide {
+.slideshow-luarsekolah .slide-luarsekolah {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -258,21 +258,21 @@ color: #07CB83;
     color: white;
 }
 
-.slideshow .slide .content-slide {
+.slideshow-luarsekolah .slide-luarsekolah .content-slide-luarsekolah {
     z-index: 2;
     padding: 20px;
     border-radius: 10px;
 }
 
-.slideshow .slide:nth-child(1) {
+.slideshow-luarsekolah .slide-luarsekolah:nth-child(1) {
     animation-delay: 0s;
 }
 
-.slideshow .slide:nth-child(2) {
+.slideshow-luarsekolah .slide-luarsekolah:nth-child(2) {
     animation-delay: 4s;
 }
 
-.slideshow .slide:nth-child(3) {
+.slideshow-luarsekolah .slide-luarsekolah:nth-child(3) {
     animation-delay: 8s;
 }
 
@@ -291,12 +291,12 @@ color: #07CB83;
     }
 }
 
-.content-slide h1 {
+.content-slide-luarsekolah h1 {
     font-size:36px;
     margin: 0.5rem 0;
 }
 
-.content-slide p, ul {
+.content-slide-luarsekolah p{
     padding: 5px 150px;
     font-size: 16px;
     max-width: 100%;

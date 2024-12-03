@@ -62,20 +62,6 @@
 
         </section>
 
-        <section class="galeri-kegiatan">
-            <div class="galeri-slide-left">
-                
-            </div>
-            <div class="galeri-slide-right">
-
-            </div>
-            <div class="galeri-slide-left">
-
-            </div>
-            <div class="galeri-slide-right">
-                
-            </div>
-        </section>
     </main>
 
 
