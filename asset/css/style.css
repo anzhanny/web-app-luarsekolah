@@ -854,3 +854,37 @@ color: #07CB83;
     text-align: center;
     font-size: 14px;
 }
+
+
+/* Page 2 Recap*/
+.hero {
+    display: flex;
+    padding: 60px 200px;
+    background-color: #ECFFFA;
+    color:#666666;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    padding: 20px;
+}
+
+.hero .Recap-luarsekolah {
+    text-align: center;
+    line-height: 1.8;
+    max-width: 55%;
+}
+
+.Recap-luarsekolah h1{
+    font-size: 44px;
+    margin-bottom: 30px;
+    font-weight: 600;
+
+}
+
+.Recap-luarsekolah .highlight-h1 {
+    color: #24C699; 
+}
+
+.Recap-luarsekolah p {
+    font-size: 16px;
+}
