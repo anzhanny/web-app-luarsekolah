@@ -216,6 +216,77 @@
             </div>
         </section>
 
+        
+        <section class="team-section">
+  <h1><span class="highlight">Tim</span> Luar Biasa Kami</h1>
+  <div class="team-container">
+    <!-- Member 1 -->
+    <div class="team-member">
+    <div class="team-member jibril">
+  <div class="profile-picture">
+    <img src="./asset/img/tim-luarsekolah-ceo.png" alt="M. Jibril Sobron">
+  </div>
+  <h2>M. Jibril Sobron</h2>
+  <p>Chief Executive Officer & Co-Founder</p>
+  <div class="social-links left">
+    <a href="#"><img src="./asset/icon/gmail.png" alt="Email"></a>
+    <a href="#"><img src="./asset/icon/linkedin.png" alt="LinkedIn"></a>
+    <a href="#"><img src="./asset/icon/instagram.png" alt="Instagram"></a>
+  </div>
+</div>
+
+    </div>
+
+    <!-- Member 2 -->
+    <div class="team-member">
+      <div class="profile-picture">
+        <img src="./asset/img/tim-luarsekolah-co-founder.png" alt="M. Fauzan Ahsan">
+      </div>
+      <div class="social-links right">
+      <a href="#"><img src="./asset/icon/gmail.png" alt="Email"></a>
+    <a href="#"><img src="./asset/icon/linkedin.png" alt="LinkedIn"></a>
+    <a href="#"><img src="./asset/icon/instagram.png" alt="Instagram"></a>
+      </div>
+      <h2>M. Fauzan Ahsan</h2>
+      <p>Technology Adviser & Co-Founder</p>
+    </div>
+  </div>
+</section>
+
+
+        <section class="program-container">
+    <!-- Heading -->
+    <h1 class="program-heading">
+      <span class="green-text">Program</span> <span class="black-text">Luar Sekolah</span>
+    </h1>
+
+    <div class="program-wrapper">
+      <!-- Program 1 -->
+      <div class="program">
+        <img src="./asset/img/1-program-prakerja.png" alt="Program 1" class="program-image">
+        <h1 class="program-title">Kartu Prakerja</h1>
+        <p class="program-description">Program Pengembangan Keterampilan untuk Pencari Kerja dan Pekerja yang Terdampak PHK.</p>
+        <button class="program-button">Lihat Selengkapnya</button>
+      </div>
+
+      <!-- Program 2 -->
+      <div class="program">
+        <img src="./asset/img/2-program-belajarbekerja.png" alt="Program 2" class="program-image">
+        <h1 class="program-title">Belajar Bekerja</h1>
+        <p class="program-description">Dirancang untuk membuatmu siap menghadapi industri dan mendapatkan pekerjaan yang diinginkan.</p>
+        <button class="program-button">Lihat Selengkapnya</button>
+      </div>
+
+      <!-- Program 3 -->
+      <div class="program">
+        <img src="./asset/img/3-program-isw.png" alt="Program 3" class="program-image">
+        <h1 class="program-title">Prakerja ISW</h1>
+        <p class="program-description">Indonesia Skills Week: Event dua bulanan Prakerja untuk semua golongan, termasuk alumni. alumni</p>
+        <button class="program-button">Lihat Selengkapnya</button>
+      </div>
+    </div>
+  </section>
+
 
     <div class="Kenalan">
         <div class="contactUs">
