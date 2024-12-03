@@ -3,71 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Content Page</title>
+    <title>Luarsekolah-home</title>
     <link rel="stylesheet" href="asset/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <style>
-        .container {
-            margin-top: 100px;
-            display: flex;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            overflow: hidden;
-        }
-
-        .form-container {
-            background: linear-gradient(to right, #9089CA, #7A64C7);
-            color: white;
-            padding: 30px;
-            width: 50%;
-        }
-
-        .form-container h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .form-container input,
-        .form-container textarea {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            display: inline-block;
-            border: 1px solid #ccc;
-            box-sizing: border-box;
-            border-radius: 5px;
-        }
-
-        .form-container textarea {
-            height: 120px;
-        }
-
-        .form-container button {
-            background-color: #e74c3c;
-            color: white;
-            padding: 12px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-            width: 100%;
-        }
-
-        .form-container button:hover {
-            background-color: #7A64C7
-    }
     
-    .image-container {
-        width: 50%;
-        background-image: url('path/to/your/image.jpg'); 
-        background-size: cover;
-        background-position: center;
-    }
-    </style>
 </head>
 <body>
     <header id="header" class="header d-flex align-items-center sticky-top">
@@ -91,7 +33,8 @@
                         Layanan <img src="asset/icon/chevron-down.png" alt="Panah" class="arrow"> 
                 </button> 
                 <div class="dropdown-content">
-                    <a href="#">Tentang kami</a>
+                    <a href="index.php">Tentang kami</a>
+                    <a href="kegiatan.php">Kegiatan</a>
                     <a href="#">Promo</a>
                     <a href="#">Blog</a>
                     <a href="#">Komunitas</a>
@@ -271,18 +214,7 @@
                 </div>
             </div>
         </section>
-                
-        <div class="container">
-            <div class="form-container">
-                <h2>Contact Us</h2>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
-            </div>
-            <div class="image-container"></div>
-        </div>
-    </main>
+
 
     <div class="Kenalan">
         <div class="contactUs">
@@ -325,6 +257,8 @@
             </div>
         </div>
     </div>
+    </main>
+
 
     <footer class="footer">
         <div class="container-footer">
@@ -372,7 +306,7 @@
                     <li><a href="#">Blog</a></li>   
                     <li><a href="#">Komunitas</a></li>
                     <li><a href="#">Promo</a></li>
-                    <li><a href="#">Kegiatan</a></li>
+                    <li><a href="kegiatan.php">Kegiatan</a></li>
                 </ul>
             </div>
             <div class="footer-content-program">
