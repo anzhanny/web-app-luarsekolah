@@ -220,7 +220,7 @@
     <div class="Kenalan">
         <div class="contactUs">
             <div class="title-contact">
-                <h2>Yuk, Kenali Kami Lebih Jauh</h2>
+                <h2 style="text-align: center; font-size: 32px;">Yuk, Kenali Kami Lebih Jauh</h2>
             </div>
             <div class="box-contact">
                 <div class="contact-maps">

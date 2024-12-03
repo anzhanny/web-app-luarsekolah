@@ -343,6 +343,12 @@ color: #07CB83;
     max-width: 300px;
     margin: 0 auto;
     display: block;
+    
+    transition: transform 0.3s ease-in-out;
+}
+
+.animation-visi img:hover {
+    transform: scale(1.1); 
 }
 
 .visi-right {
@@ -411,6 +417,11 @@ color: #07CB83;
     max-width: 300px;
     margin: 0 auto;
     display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.animation-misi img:hover {
+    transform: scale(1.1); 
 }
 
 @media (max-width: 768px) {
@@ -478,7 +489,7 @@ color: #07CB83;
 /* Hover Effect */
 .value-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
 }
 
 .value-item:hover img {
@@ -540,7 +551,7 @@ color: #07CB83;
 
 @media (max-width: 768px) {
     .solution-grid {
-        grid-template-columns: 2fr; /* 1 kolom per baris di layar kecil */
+        grid-template-columns: 2fr; 
     }
 }
 
@@ -591,7 +602,14 @@ color: #07CB83;
     margin-bottom: 20px;
     margin-right: 50rem;
     margin-left: 15rem;
+    transition: transform 0.3s ease-in-out;
 }
+
+.animasi-pencapaian img:hover {
+
+    transform: scale(1.1); 
+}
+
 
 /* Bagian Konten Deskripsi */
 .content-pencapaian {
@@ -711,7 +729,7 @@ color: #07CB83;
   display: flex;
   width: 80%;
   height: auto;
-  flex: 1; /* Mengisi ruang yang sama dengan map */
+  flex: 1; 
   min-width: 300px;
   max-width: 80%;
   margin-left: 450px;
@@ -770,7 +788,7 @@ color: #07CB83;
 }
 
 .btn-colab .button {
-  background-color: #20a281;
+  background-color: #24C699;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -779,6 +797,12 @@ color: #07CB83;
   display: inline-block;
   font-size: 16px;
   border-radius: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:active {
+
+    background-color: #1a8d6c;
 }
 
 
