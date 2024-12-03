@@ -58,9 +58,107 @@
             </div>
         </section>
 
-        <section class="card-kegiatan">
+        <div class="container-kegiatan">
+            <div class="header-kegiatan">
+                <h1>Kegiatan</h1>
+                <h3>Jejak Kegiatan</h3>
+            </div>
+            <div class="card-container-kegiatan">
+                
+                <div class="card-kegiatan">
+                    <img height="223" src="asset/img/1LS_TRKP_004.png" width="400"/>
+                    <div class="card-content-kegiatan">
+                        <h3>Temu Raya Prakerja</h3>
+                        <p class="date-kegiatan">16 Juni 2022</p>
+                        <p>Luarsekolah berpartisipasi dalam Temu Raya Prakerja di Sentul International Convention Center (SICC), yang...</p>
+                    </div>
+                    <div class="card-footer-kegiatan">
+                        <a href="#">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                
+                <div class="card-kegiatan">
+                    <img height="223" src="asset/img/2Krea1.png" width="400"/>
+                    <div class="card-content-kegiatan">
+                        <h3>Kreatalk</h3>
+                        <p class="date-kegiatan">2 Agustus 2023</p>
+                        <p>Kreatalk adalah series live Instagram dari Luarsekolah yang membahas topik-topik terkini dengan...</p>
+                    </div>
+                    <div class="card-footer-kegiatan">
+                        <a href="#">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                
+                <div class="card-kegiatan">
+                    <img height="223" src="asset/img/3ea2eb63-1672-4663-bdc7-0f48657de4ec.png" width="400"/>
+                    <div class="card-content-kegiatan">
+                        <h3>Pekan Pendidikan Tinggi JKT 19</h3>
+                        <p class="date-kegiatan">10 - 12 Januari 2024</p>
+                        <p>Tim Luarsekolah hadir di Pekan Pendidikan Tinggi Jakarta ke-19 di Balai Kartini, Jakarta, untuk...</p>
+                    </div>
+                    <div class="card-footer-kegiatan">
+                        <a href="#">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                
+                <div class="card-kegiatan">
+                    <img height="223" src="asset/img/4Group 633182.png" width="400"/>
+                    <div class="card-content-kegiatan">
+                        <h3>Mini Magang+</h3>
+                        <p class="date-kegiatan">8 Februari 2024</p>
+                        <p>Mini Magang+ adalah kegiatan trial magang+ selama 5 hari yang memberikan gambaran kepada calon...</p>
+                    </div>
+                    <div class="card-footer-kegiatan">
+                        <a href="#">Baca Selengkapnya</a>
+                    </div>
+                </div>
+                
+                <div class="card-kegiatan">
+                    <img height="223" src="asset/img/5Group 633183.png" width="400"/>
+                    <div class="card-content-kegiatan">
+                        <h3>Luarsekolah Cendikia (LSC 41)</h3>
+                        <p class="date-kegiatan">20 Februari 2024</p>
+                        <p>Luarsekolah Cendekia adalah webinar series yang diselenggarakan untuk memberikan informasi terkini seputar...</p>
+                    </div>
+                    <div class="card-footer-kegiatan">
+                        <a href="#">Baca Selengkapnya</a>
+                    </div>
+                </div>
 
-        </section>
+                <div class="card-kegiatan">
+                    <img height="223" src="asset/img/6IMG_1595a.png" width="400"/>
+                    <div class="card-content-kegiatan">
+                        <h3>Unity for Charity by Luarsekolah X Rumah Amal Salman</h3>
+                        <p class="date-kegiatan">17 Maret 2024</p>
+                        <p>Luarsekolah berkolaborasi dengan Rumah Amal Salman untuk mengadakan kegiatan silaturahmi dan berbagi 1000 paket...</p>
+                    </div>
+                    <div class="card-footer-kegiatan">
+                        <a href="#">Baca Selengkapnya</a>
+                    </div>
+                </div>
+
+                <div class="card-kegiatan">
+                    <img height="223" src="asset/img/7Charity Amal Salman2.png" width="400"/>
+                    <div class="card-content-kegiatan">
+                        <h3>Product Release Belajar Bekerja</h3>
+                        <p class="date-kegiatan">22 Maret 2024</p>
+                        <p>Luarsekolah baru saja meluncurkan program terbaru (Belajar Bekerja) yang bertujuan mempersiapkan individu...</p>
+                    </div>
+                    <div class="card-footer-kegiatan">
+                        <a href="#">Baca Selengkapnya</a>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="pagination-kegiatan">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
 
     </main>
 
