@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Gambar</title>
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <style>
+    *,
+    *::after,
+    *::before {
+      margin: 0;
+      padding: 0;
+      border: none;
+      outline: none;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      font-size: 16px;
+      background-color: #f5f5f5;
+      color: #333;
+      height: fit-content;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      width: 100%;
+    }
+
+    .header {
+      text-align: center;
+      width: 100%;
+      padding-top: 20px;
+    }
+
+    .scroll-container {
+      height: 200px;
+      /* Adjusting height to account for header */
+      position: relative;
+      overflow: hidden;
+    }
+
+
+.carousel-primary,
+.carousel-secondary,
+.carousel-primary1,
+.carousel-secondary1  {
+  top: 26%;
+  left: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.carousel-primary,.carousel-primary1 img {
+  width: 100%;
+  margin-left: 20px;
+  border-radius: 14px;
+}
+
+.carousel-primary {
+  display: flex;
+  justify-content: space-around;
+  animation: scroll-left 20s linear infinite;
+}
+
+.carousel-secondary {
+  animation: scroll-left 20s linear infinite;
+  animation-delay: 10s;
+}
+
+    .carousel img {
+      width: 200px; /* Set a fixed width for images */
+      height: 200px;
+      top: 5%;
+      margin-left: 20px;
+      border-radius: 14px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #24C699;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: rgba(0, 0, 0, 0.6);
+    }
+
+    .carousel-primary1{
+      display: flex;
+      justify-content: space-around;
+      animation:scroll-right 20s linear infinite;
+    }
+    
+    .carousel-secondary1 {
+    animation:scroll-right 20s linear infinite;
+    animation-delay: 10s;
+    }
+
+    @keyframes scroll-left {
+      0% {
+         left:100%;
+      }
+      100% {
+         left:-100%;
+      }
+  }
+  
+  @keyframes scroll-right {
+    0% {
+       left:-100%;
+    }
+    100% {
+       left:100%;
+    }
+  }
+  
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="header">
+      <h2>Gambar</h2>
+      <h3>Galeri Aksi & Inspirasi</h3>
+    </div>
+
+    <!-- First Scroll Container -->
+    <div class="scroll-container">
+      <div class="carousel-primary1">
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+      </div>
+      <div class="carousel-primary1 carousel-secondary1">
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+      </div>
+    </div>
+    
+    <!-- First Scroll Container -->
+    <div class="scroll-container">
+      <div class="carousel-primary">
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+      </div>
+      <div class="carousel-primary carousel-secondary">
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+      </div>
+    </div>
+
+    <div class="scroll-container">
+      <div class="carousel-primary1">
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+      </div>
+      <div class="carousel-primary1 carousel-secondary1">
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+      </div>
+    </div>
+
+    <div class="scroll-container">
+      <div class="carousel-primary">
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+      </div>
+      <div class="carousel-primary carousel-secondary">
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+        <img src="asset/img/1-1-DSC02957.png" alt="cat1" />
+      </div>
+    </div>
+  </div>
+</div>
+    
+
+    
+</body>
+
+</html>
