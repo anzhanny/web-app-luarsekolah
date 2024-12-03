@@ -679,6 +679,7 @@ color: #07CB83;
 .contactUs .title-contact h2 {
   color: #fff ;
   font-weight: 500;
+  
 }
 
 .box-contact {
@@ -690,33 +691,38 @@ color: #07CB83;
   display: flex;
   flex-wrap: wrap;
   padding: 5px;
+
 }
 
 .contact-maps {
   width: 100%;
   height: auto;
   flex: 50%;
+  max-width: 50%;
 }
 
 .contact-maps iframe{
-  width: 550px;
-  height: 300px;
-  border-radius: 10px;
+  width: 400px;
+  height: 250px;
+  border-radius: 5px;
 }
 
 .contact-info {
   display: flex;
-  width: 100%;
+  width: 80%;
   height: auto;
-  flex: 50%;
+  flex: 1; /* Mengisi ruang yang sama dengan map */
+  min-width: 300px;
+  max-width: 80%;
+  margin-left: 450px;
+  margin-top: -250px;
+  font-size: 14px;
 }
 
 .infoBox {
   display: relative;
-  width: 100%;
   height: 350px;
-  margin-left: 50px;
-  font-size: 19px;
+  font-size: 14px;
 }
 
 .infoBox tr td:first-child{
