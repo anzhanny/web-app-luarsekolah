@@ -51,6 +51,13 @@
     </header>
 
     <main>
+        <section class="hero">
+            <div class="Recap-luarsekolah">
+                <h1><span class="highlight-h1">Recap Kegiatan</span> Luarsekolah</h1>
+                <p>Melalui berbagai acara, seminar, workshop, dan inisiatif lainnya, kami telah berhasil memberikan inspirasi, pengetahuan, dan kesempatan yang memengaruhi banyak orang.</p>
+            </div>
+        </section>
+
         <section class="card-kegiatan">
 
         </section>
