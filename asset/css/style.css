@@ -1193,3 +1193,222 @@
       width: 100%;
   }
 }
+
+
+.gambarcontainer {
+  display: flex;
+  flex-direction: column;
+ 
+  width: 100%;
+ 
+  
+}
+
+.gambarheader {
+  text-align: center;
+  width: 100%;
+  padding-top: 135px;
+  padding-bottom: 45px;
+}
+
+.gambarscroll-container {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  display: flex; /* Enable flexbox layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  align-content: flex-start;
+}
+
+
+.gambarcarousel-primary,
+.gambarcarousel-secondary,
+.gambarcarousel-primary1,
+.gambarcarousel-secondary1  {
+top: 10%;
+left: 100%;
+width: 100%;
+overflow: hidden;
+position: absolute;
+white-space: nowrap;
+}
+
+.gambarcarousel-primary img,.gambarcarousel-primary1 img {
+width: 100%;
+margin-left: 20px;
+border-radius: 14px;
+}
+
+.gambarcarousel-primary {
+display: flex;
+height: 100%;
+justify-content: space-around;
+animation: scroll-left 20s linear infinite;
+}
+
+.gambarcarousel-secondary {
+animation: scroll-left 20s linear infinite;
+animation-delay: 10s;
+}
+
+.gambarcarousel img {
+  width: 200px; /* Set a fixed width for images */
+  height: 100px;
+  top: 5%;
+  margin-left: 20px;
+  border-radius: 14px;
+}
+
+.gambarh2 {
+  font-size: 44px;
+  font-weight: 700;
+  color: #24C699;
+}
+
+.gambarh3 {
+  padding-top: 15px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.gambarcarousel-primary1{
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  animation:scroll-right 20s linear infinite;
+}
+
+.gambarcarousel-secondary1 {
+animation:scroll-right 20s linear infinite;
+animation-delay: 10s;
+}
+
+@keyframes scroll-left {
+  0% {
+     left:100%;
+  }
+  100% {
+     left:-100%;
+  }
+}
+
+@keyframes scroll-right {
+0% {
+   left:-100%;
+}
+100% {
+   left:100%;
+}
+}
+
+.mitra, .gambar{
+  padding-top: 80px;
+  padding-bottom:96px;
+  background: #ECFFFA;
+}
+
+.mitracontainer {
+  display: flex;
+  flex-direction: column;
+ 
+  width: 100%;
+ 
+  
+}
+
+.mitraheader {
+  text-align: center;
+  width: 100%;
+  
+  padding-bottom: 45px;
+  
+}
+
+.mitrascroll-container,.mitrascroll-container1 {
+
+  height: 150px;
+  width: 100%;
+  position: relative;
+  display: flex; /* Enable flexbox layout */
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  align-content: flex-start;
+}
+
+.mitrascroll-container1{
+  top: 50px;
+}
+
+
+.mitracarousel-primary,
+.mitracarousel-secondary,
+.mitracarousel-primary1,
+.mitracarousel-secondary1  {
+top: 10%;
+left: 100%;
+width: 100%;
+overflow: hidden;
+position: absolute;
+white-space: nowrap;
+}
+
+.mitracarousel-primary img,.mitracarousel-primary1 img {
+width: 100%;
+margin-left: 20px;
+border-radius: 14px;
+}
+
+.mitracarousel-primary img{
+  height: 65px;
+}
+
+.mitracarousel-primary1 img{
+  height: 125px;
+}
+
+.mitracarousel-primary {
+display: flex;
+height: 100%;
+justify-content: space-around;
+animation: scroll-left 20s linear infinite;
+}
+
+.mitracarousel-secondary {
+animation: scroll-left 20s linear infinite;
+animation-delay: 10s;
+}
+
+.mitracarousel img {
+  width: 200px; /* Set a fixed width for images */
+  height: 50px;
+  top: 5%;
+  margin-left: 20px;
+  border-radius: 14px;
+}
+
+
+
+
+.mitrah2 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #24C699;
+}
+
+.mitrah3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.mitracarousel-primary1{
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+  animation:scroll-right 20s linear infinite;
+}
+
+.mitracarousel-secondary1 {
+animation:scroll-right 20s linear infinite;
+animation-delay: 10s;
+}
