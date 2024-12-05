@@ -216,6 +216,54 @@
             </div>
         </section>
 
+        <section class="mitra">
+
+            <div class="mitracontainer">
+          
+              <div class="mitraheader">
+                <h1 style="font-size: 32px;"><span style="color: #24c699;">Mitra</span> Luar Selolah</h1>
+              </div>
+          
+              <!-- First Scroll Container -->
+              <div class="mitrascroll-container">
+                <div class="mitracarousel-primary">
+                 
+                  <img src="asset\img\mitra-perusahaan-1.png" alt="cat1" />
+                  <img src="asset\img\mitra-perusahaan-2.png" alt="cat1" />
+                  <img src="asset\img\mitra-perusahaan-3.png" alt="cat1" />
+                  <img src="asset\img\mitra-perusahaan-4.png" alt="cat1" />          
+                  
+          
+                </div>
+                <div class="mitracarousel-primary mitracarousel-secondary">
+                  
+                  <img src="asset\img\mitra-perusahaan-5.png" alt="cat1"  />
+                  <img src="asset\img\mitra-perusahaan-6.png" alt="cat1" />
+                  <img src="asset\img\mitra-perusahaan-7.png" alt="cat1" />
+                  <img src="asset\img\mitra-perusahaan-1.png" alt="cat1" />          
+                  
+          
+                </div>
+              </div>
+          
+              <div class="mitrascroll-container1">
+                <div class="mitracarousel-primary1">
+                  <img src="asset\img\mitra-kampus-1.png" alt="cat1"  />
+                  <img src="asset\img\mitra-kampus-2.png" alt="cat1" />
+                  <img src="asset\img\mitra-kampus-3.png" alt="cat1" />
+                  <img src="asset\img\mitra-kampus-4.png" alt="cat1" />
+                </div>
+                <div class="mitracarousel-primary1 mitracarousel-secondary1">
+                  <img src="asset\img\mitra-kampus-5.png" alt="cat1" />
+                  <img src="asset\img\mitra-kampus-6.png" alt="cat1" />
+                  <img src="asset\img\mitra-kampus-7.png" alt="cat1" />
+                  <img src="asset\img\mitra-kampus-1.png" alt="cat1" />
+                </div>
+              </div>
+          
+            </div>
+            </section>
+
         
         <section class="team-section">
   <h1><span class="highlight">Tim</span> Luar Biasa Kami</h1>
@@ -229,9 +277,9 @@
   <h2>M. Jibril Sobron</h2>
   <p>Chief Executive Officer & Co-Founder</p>
   <div class="social-links left">
-    <a href="#"><img src="./asset/icon/gmail.png" alt="Email"></a>
-    <a href="#"><img src="./asset/icon/linkedin.png" alt="LinkedIn"></a>
-    <a href="#"><img src="./asset/icon/instagram.png" alt="Instagram"></a>
+    <a href="#"><img src="./asset/icon/tim-luarsekolah-instagram.png" alt="Instagram"></a>
+    <a href="#"><img src="./asset/icon/tim-luarsekolah-email.png" alt="Email"></a>
+    <a href="#"><img src="./asset/icon/tim-luarsekolah-linkedin.png" alt="LinkedIn"></a>
   </div>
 </div>
 
@@ -243,9 +291,9 @@
         <img src="./asset/img/tim-luarsekolah-co-founder.png" alt="M. Fauzan Ahsan">
       </div>
       <div class="social-links right">
-      <a href="#"><img src="./asset/icon/gmail.png" alt="Email"></a>
-    <a href="#"><img src="./asset/icon/linkedin.png" alt="LinkedIn"></a>
-    <a href="#"><img src="./asset/icon/instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="./asset/icon/tim-luarsekolah-instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="./asset/icon/tim-luarsekolah-email.png" alt="Email"></a>
+        <a href="#"><img src="./asset/icon/tim-luarsekolah-linkedin.png" alt="LinkedIn"></a>
       </div>
       <h2>M. Fauzan Ahsan</h2>
       <p>Technology Adviser & Co-Founder</p>
@@ -344,7 +392,7 @@
                     </p>
                     <P>PT Teknologi Edukasi Indonesia</P>
                 
-                    <div class="footer-social">
+                    <div class="footer-social" >
                     <a href="https://www.linkedin.com/">
                         <img src="asset/icon/linkedin.png" alt="LinkedIn">
                     </a>

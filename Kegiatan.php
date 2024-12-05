@@ -33,7 +33,7 @@
                         Layanan <img src="asset/icon/chevron-down.png" alt="Panah" class="arrow"> 
                 </button> 
                 <div class="dropdown-content">
-                    <a href="index.php">Tentang kami</a>
+                    <a href="index.html">Tentang kami</a>
                     <a href="kegiatan.php">Kegiatan</a>
                     <a href="#">Promo</a>
                     <a href="#">Blog</a>
@@ -58,10 +58,11 @@
             </div>
         </section>
 
+        <section>
         <div class="container-kegiatan">
             <div class="header-kegiatan">
-                <h1>Kegiatan</h1>
-                <h3>Jejak Kegiatan</h3>
+                <h1>Aktivitas</h1>
+                <h3>Telusuri kilas balik kegiatan Luarsekolah yang menghantarkan pada keberhasilan dan moment tak terlupakan.</h3>
             </div>
             <div class="card-container-kegiatan">
                 
@@ -128,9 +129,9 @@
                 <div class="card-kegiatan">
                     <img height="223" src="asset/img/6IMG_1595a.png" width="400"/>
                     <div class="card-content-kegiatan">
-                        <h3>Unity for Charity by Luarsekolah X Rumah Amal Salman</h3>
+                        <h3>Unity for Charity</h3>
                         <p class="date-kegiatan">17 Maret 2024</p>
-                        <p>Luarsekolah berkolaborasi dengan Rumah Amal Salman untuk mengadakan kegiatan silaturahmi dan berbagi 1000 paket...</p>
+                        <p>Berkolaborasi dengan Rumah Amal Salman untuk kegiatan silaturahmi dan berbagi 1000 paket...</p>
                     </div>
                     <div class="card-footer-kegiatan">
                         <a href="#">Baca Selengkapnya</a>
@@ -159,7 +160,78 @@
                 <span class="dot"></span>
             </div>
         </div>
-
+        </section>
+        
+        <section class="gambar" >
+            <div class="gambarcontainer">
+            <div class="gambarheader">
+              <h2 class="gambarh2">Gambar</h2>
+              <h3 class="gambarh3">Melihat Kembali Momen-Momen Berharga kegiatan Luarsekolah melalui Lensa</h3>
+            </div>
+        
+            <!-- First Scroll Container -->
+            <div class="gambarscroll-container">
+              <div class="gambarcarousel-primary1">
+                <img src="asset\img\1-1-DSC02957.png" alt="cat1" />
+                <img src="asset\img\1-2-Charity Amal Salman.png" alt="cat1" />
+                <img src="asset\img\1-3-Cendikia1.png" alt="cat1" />
+                <img src="asset\img\1-4-LS_TRKP_004.png" alt="cat1" />
+              </div>
+              <div class="gambarcarousel-primary1 gambarcarousel-secondary1">
+                <img src="asset\img\1-5-Charity Amal Salman1.png" alt="cat1" />
+                <img src="asset\img\1-6-Sosialisasi Prakerja 20244.png" alt="cat1" />
+                <img src="asset\img\1-7-Charity Amal Salman2.png" alt="cat1" />
+                <img src="asset\img\1-8-Mini Magang1.png" alt="cat1" />
+              </div>
+            </div>
+            
+            <div class="gambarscroll-container">
+              <div class="gambarcarousel-primary">
+                <img src="asset\img\1-9-Charity Amal Salman3.png" alt="cat1" />
+                <img src="asset\img\1-10-Screenshot (150).png" alt="cat1" />
+                <img src="asset\img\1-11-Webinar Prakerja3.png" alt="cat1" />
+                <img src="asset\img\2-1-DSC02936.png" alt="cat1" />
+              </div>
+              <div class="gambarcarousel-primary gambarcarousel-secondary">
+                <img src="asset\img\2-2-DSC02903.png" alt="cat1" />
+                <img src="asset\img\2-3-Screen Shot 2024-03-04 at 10.06.39.png" alt="cat1" />
+                <img src="asset\img\2-4-DSC02931.png" alt="cat1" />
+                <img src="asset\img\2-5-LS_TRKP_017.png" alt="cat1" />
+              </div>
+            </div>
+        
+            <div class="gambarscroll-container">
+              <div class="gambarcarousel-primary1">
+                <img src="asset\img\2-6-Krea1.png" alt="cat1" />
+                <img src="asset\img\2-7-DSC02836.png" alt="cat1" />
+                <img src="asset\img\2-8-Mini Magang.png" alt="cat1" />
+                <img src="asset\img\2-9-Sosialisasi Prakerja 20242.png" alt="cat1" />
+              </div>
+              <div class="gambarcarousel-primary1 gambarcarousel-secondary1">
+                <img src="asset\img\2-10-Mini Magang3.png" alt="cat1" />
+                <img src="asset\img\2-11-IMG_1609a.png" alt="cat1" />
+                <img src="asset\img\2-12-.png" alt="cat1" />
+                <img src="asset\img\3-1-LS_TRKP_024.png" alt="cat1" />
+              </div>
+            </div>
+        
+            <div class="gambarscroll-container">
+              <div class="gambarcarousel-primary">
+                <img src="asset\img\3-2-DSC02829.png" alt="cat1" />
+                <img src="asset\img\3-2-DSC02829.png" alt="cat1" />
+                <img src="asset\img\3-2-DSC02954.png" alt="cat1" />
+                <img src="asset\img\3-4-Sosialisasi Prakerja 2024.png" alt="cat1" />
+              </div>
+              <div class="gambarcarousel-primary gambarcarousel-secondary">
+                <img src="asset\img\3-5-DSC02834.png" alt="cat1" />
+                <img src="asset\img\3-6-DSC02843.png" alt="cat1" />
+                <img src="asset\img\3-7-DSC02871.png" alt="cat1" />
+                <img src="asset\img\3-8-Mini Magang2.png" alt="cat1" />
+              </div>
+            </div>
+        
+          </div>
+          </section>
     </main>
 
 
