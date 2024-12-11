@@ -138,7 +138,7 @@
 }
 
 .auth-link2-btn {
-  background-color: rgb(1, 250, 179);
+  background-color: #24c699;
   border-radius: 4px;
   height: 44px;
   width: 120px;
@@ -148,7 +148,7 @@
 }
 
 .auth-link2-btn:hover {
-  background-color: #53ffce;
+  background-color: #24c699;
   color: #666666;
   cursor: pointer;
 }
@@ -206,7 +206,7 @@
 }
 
 .about-luarsekolah p {
-  font-weight: 600;
+  font-weight: 400;
   margin: 20px 0;
   font-size: 16px;
 }
@@ -291,6 +291,7 @@
   padding: 5px 150px;
   font-size: 16px;
   max-width: 100%;
+  font-weight: 500;
   line-height: 1.5;
 }
 
@@ -463,8 +464,8 @@
 }
 
 .value-item img {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   margin-bottom: 10px;
   transition: transform 0.3s ease;
 }
@@ -972,7 +973,7 @@
 
 /* footer */
 .footer {
-  padding: 60px 130px;
+  padding: 60px 135px;
   background-color: #ecfffa;
   color: #666666;
   font-weight: 400;
@@ -1148,7 +1149,7 @@
   padding: 5%;
 }
 .card-content-kegiatan h3 {
-  margin-top: -30px;
+  margin-top: 5px;
   color: #00694E;
   font-size: 20px;
   /* margin: 0 0 10px; */
@@ -1166,19 +1167,21 @@
   margin-bottom: 10px;
 }
 .card-footer-kegiatan {
-  padding: 20px;
+  /* padding: -10px; */
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  
+  margin-top: 50px;
+  margin-bottom: 30px;
+  max-width: 600px;
+
 }
 .card-footer-kegiatan a {
   background-color: #00b894;
   color: #fff;
-  padding: 10px 25%;
+  padding: 10px 90px;
   border-radius: 7px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 16px;
+
 }
 .pagination-kegiatan {
   text-align: center;
@@ -1352,8 +1355,8 @@ animation-delay: 10s;
   height: 150px;
   width: 100%;
   position: relative;
-  display: flex; /* Enable flexbox layout */
-  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  display: flex; 
+  flex-wrap: wrap; 
   align-content: flex-start;
 }
 
@@ -1382,7 +1385,7 @@ border-radius: 14px;
 
 .mitracarousel-primary1 img,
 .mitracarousel-secondary1 img {
-  width: 150px; 
+  width: 100px; 
   height: auto; 
   object-fit: contain; 
   margin-right: 0;
@@ -1391,20 +1394,21 @@ border-radius: 14px;
 img[src="asset\\img\\mitra-kampus-5.png"],
 img[src="asset\\img\\mitra-kampus-6.png"] {
   width: auto; 
-  height: 70px; 
+  height: 5px; 
   object-fit: contain;
 }
+
 
 
 .mitracarousel-primary img{
   width: auto; 
-  height: 80px; 
+  height: 50px; 
   object-fit: contain;
-  margin-left: 10px; 
+  margin-left: 50px; 
 }
 
 .mitracarousel-primary1 img{
-  height: 125px;
+  height: 100px;
 }
 
 .mitracarousel-primary {
@@ -1420,7 +1424,7 @@ animation-delay: 10s;
 }
 
 .mitracarousel img {
-  width: 200px; /* Set a fixed width for images */
+  width: 150px; /* Set a fixed width for images */
   height: 50px;
   top: 5%;
   margin-left: 20px;
